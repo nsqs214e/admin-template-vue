@@ -1,14 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-02-03 20:18:15
- * @LastEditTime: 2021-02-09 14:48:48
+ * @LastEditTime: 2021-02-11 15:31:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \admin-template\src\App.vue
 -->
 <template>
   <div id="app">
-    <a-button>123</a-button>
   </div>
 </template>
 
@@ -16,6 +15,11 @@
 
 export default {
   name: 'App',
+  mounted(){
+    this.$axios('/getUserInfo').then(res=>{
+      console.log(res)
+    })
+  },
   components: {
   }
 }
