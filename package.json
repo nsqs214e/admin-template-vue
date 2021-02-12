@@ -13,8 +13,10 @@
     "core-js": "^3.6.5",
     "less": "^2.7.3",
     "less-loader": "^4.1.0",
+    "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
