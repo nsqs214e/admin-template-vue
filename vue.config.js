@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-02-04 20:36:39
- * @LastEditTime: 2021-02-12 05:07:29
+ * @LastEditTime: 2021-02-22 23:32:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \admin-template\vue.config.js
@@ -18,6 +18,7 @@ module.exports = {
       .set('@',resolve('./src'))
       .set('_c',resolve('./src/components'))
       .set('_v',resolve('./src/views'))
+      .set('_u',resolve('./src/utils'))
 　　　　
     },
     pluginOptions: {
